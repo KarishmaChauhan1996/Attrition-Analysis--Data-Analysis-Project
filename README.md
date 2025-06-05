@@ -41,18 +41,49 @@ Conclusion
 
 ### Data
 
-Tables: There are 10 tables for different type of attacks with same columns 
-- Data_of_Attack_Back_Normal
-- Data_of_Attack_Back
-- Data_of_Attack_Back_BufferOverflow
-- Data_of_Attack_Back_FTPWrite
-- Data_of_Attack_Back_GuessPassword
-- Data_of_Attack_Back_Neptune
-- Data_of_Attack_Back_NMap
-- Data_of_Attack_Back_PortSweep
-- Data_of_Attack_Back_RootKit
-- Data_of_Attack_Back_Satan
-- Data_of_Attack_Back_Smurf 
+We have following tables with columns:
+
+### df_attrition 
+EmployeeNumber
+Attrition
+
+### df_employee_info 
+EmployeeNumber	
+Age	
+Education	
+EducationField	
+Gender	
+MaritalStatus	
+Over18
+
+### df_job_satisfaction 
+EmployeeNumber	
+EnvironmentSatisfaction	
+JobInvolvement	
+JobSatisfaction	
+Manager_RelationshipSatisfaction	
+WorkLifeBalance
+
+### df_job_details
+
+EmployeeNumber	
+Department	
+BusinessTravel	
+DistanceFromHome	
+JobInvolvement	
+JobLevel	
+JobRole	
+MonthlySalary	
+NumCompaniesWorked	 
+OverTime 
+PercentSalaryHike_last_year	
+PerformanceRating	
+StockOptionLevel	
+TrainingTimesLastYear	
+YearsAtCompany	
+YearsInCurrentRole	
+YearsSinceLastPromotion 
+YearsWithCurrManager
 
 ### Tools & Technologies
 
