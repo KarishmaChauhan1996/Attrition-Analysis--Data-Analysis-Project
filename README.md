@@ -13,15 +13,11 @@ There are two problems:
 
 ## Key Questions Addressed
 
-What are the most common attributes of employees who left the company?
-
-Which departments and job roles experience the highest attrition?
-
-How does job satisfaction or work-life balance influence attrition?
-
-What is the impact of overtime, salary hike, or manager satisfaction on attrition?
-
-How does attrition vary across different demographics like age, gender, and education?
+- What are the most common attributes of employees who left the company?
+- Which departments and job roles experience the highest attrition?
+- How does job satisfaction or work-life balance influence attrition?
+- What is the impact of overtime, salary hike, or manager satisfaction on attrition?
+- How does attrition vary across different demographics like age, gender, and education?
 
 ### Table of Contents
 
