@@ -1,6 +1,6 @@
 # Overview
 
-This project is a comprehensive Sales Analytics & Forecasting solution designed to help businesses understand data using SQL-based data analysis, and interactive dashboarding and predict product demand using machine learning.
+This project is a comprehensive Sales Analytics & Forecasting solution designed to help businesses understand Sales using SQL-based data analysis, and interactive dashboarding and predict product demand using machine learning.
 
 It includes:
 
