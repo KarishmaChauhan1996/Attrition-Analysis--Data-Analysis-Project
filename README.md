@@ -44,77 +44,41 @@ Key Features:
 ### Machine Learning – Product Demand Forecasting
 Model: Supervised Regression (Random Forest)
 
-Goal: Predict quantity sold based on features like: Product category & subcategory, Store type, Average selling price, Time-based variables (Month, Year)
+### Model Development Workflow:
+ 
+#### Exploratory Data Analysis
+#### Data Preparation
+- Cleaned and preprocessed transactional records using Python.
+- Filtered out returns (negative quantities).
+- Handled missing values and inconsistent date formats.
+- Created structured features like YearMonth, Avg_Selling_Price, Product_Label.
+#### Feature Encoding
+- Applied one-hot or label encoding to categorical variables like Store_Type, Product_Category, etc.
+#### Model Bulding
+- Train-Test Split
+- Split the data into 80% training and 20% testing for evaluation.
+- Optionally used TimeSeriesSplit or GroupKFold to respect temporal structure.
+- Modeling Techniques- RandomForest
+#### Model Evaluation
+- Measured using industry-standard metrics:
+   - RMSE (Root Mean Square Error): 0.014
+   - R² Score: 0.9999 (indicating excellent fit)
 
-- Performance:
-   RMSE: 0.014
-   R²: 0.9999
-
+#### Business Impact:
+- Enables accurate forecasting of demand at the product and store level.
+- Assists teams in stock planning, reducing overstock and stockouts.
+- Informs pricing decisions and promotion targeting.
+- Supports month-on-month sales planning and seasonality adjustment
+  
 ## Key Results
 
 - Highly accurate regression model (R² > 0.9999) for demand prediction
 - Business-ready dashboard highlighting sales drivers and trends
-- Scalable data pipeline for integrating new transactional data
 
-Data
+## Data
 
-Usage
 
-Methodology
 
-Models Used
-
-Evaluation Metrics
-
-Results
-
-Conclusion
-
-### Data
-
-We have following tables with columns:
-
-### df_attrition 
-EmployeeNumber
-Attrition
-
-### df_employee_info 
-EmployeeNumber	
-Age	
-Education	
-EducationField	
-Gender	
-MaritalStatus	
-Over18
-
-### df_job_satisfaction 
-EmployeeNumber	
-EnvironmentSatisfaction	
-JobInvolvement	
-JobSatisfaction	
-Manager_RelationshipSatisfaction	
-WorkLifeBalance
-
-### df_job_details
-
-EmployeeNumber	
-Department	
-BusinessTravel	
-DistanceFromHome	
-JobInvolvement	
-JobLevel	
-JobRole	
-MonthlySalary	
-NumCompaniesWorked	 
-OverTime 
-PercentSalaryHike_last_year	
-PerformanceRating	
-StockOptionLevel	
-TrainingTimesLastYear	
-YearsAtCompany	
-YearsInCurrentRole	
-YearsSinceLastPromotion 
-YearsWithCurrManager
 
 ### Tools & Technologies
 
