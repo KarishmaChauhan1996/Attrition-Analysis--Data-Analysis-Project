@@ -15,7 +15,31 @@ It includes:
 - Predict future product demand (sales quantity) using historical data.
 - Build a Power BI dashboard for real-time insights on sales performance.
 - Enable data-driven pricing, stocking, and marketing decisions.
-- 
+
+## Data
+
+#### Table: customers
+  - customer_ID
+  - DOB
+  - Gneder
+  - City_code
+#### Table: product_hierarchy
+  - prod_cat_code
+  - prod_cat
+  - prod_sub_cat_code
+  - prod_subcat
+#### Table: transactions
+  - transaction_id
+  - cust_id
+  - tran_date
+  - prod_subcat_code
+  - prod_cat_code
+  - Qty
+  - Rate
+  - Tax
+  - total_amt
+  - Store_type
+
 ### SQL Data Analysis
 
 Robust SQL queries were used to clean, transform, and aggregate raw transactional and reference data.
