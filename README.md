@@ -1,25 +1,60 @@
 # Overview
 
-This project aims to analyze employee attrition patterns and uncover key drivers of turnover within an organization. We used a combination of Python, SQL, and Power BI to explore and visualize data from various dimensions such as demographics, job roles, satisfaction scores, and compensation details.
+This project is a comprehensive Sales Analytics & Forecasting solution designed to help businesses understand data using SQL-based data analysis, and interactive dashboarding and predict product demand using machine learning.
+
+It includes:
+
+- Exploratory data analysis and transformation using SQL
+- Power BI Dashboard with actionable KPIs and DAX-driven insights.
+- Product Demand Forecasting model using Python (Regression)
 
 
 # Objective
 
-The objective of project is to build network intrusion detection system to detect anomalies and attacks in the network. 
+- Analyze the sales and segement customers/products based on purchasing behavior.
+- Predict future product demand (sales quantity) using historical data.
+- Build a Power BI dashboard for real-time insights on sales performance.
+- Enable data-driven pricing, stocking, and marketing decisions.
+- 
+### SQL Data Analysis
 
-There are two problems: 
-- Binomial classification: Detect anomalies by predicting Activity is normal or attack.
-- Multinomial Classification: Detecting type of activity by predicting Activity is Normal or Back or Buffer Over flow or FTP Write or Guess Password or Neptune or N-Map or Port Sweep or Root Kit or Satan or Smurf.
+Robust SQL queries were used to clean, transform, and aggregate raw transactional and reference data.
+Key SQL Operations:
+- Data Cleaning & Normalization
+- Standardized inconsistent date formats using CAST, TRY_CAST, and string manipulation.
+- Filtered out invalid transactions (e.g., zero or negative quantities in sales).
+- Handled nulls and missing values for product and customer attributes.
+- Derived standard columns
+- Table Joins
+- Customer and Product Aggregation
+- Cohort Analysis Preparation
 
-## Key Questions Addressed
+### Power BI Dashboard
+An advanced Power BI dashboard was created to visualize key business metrics using dynamic DAX measures and visuals.
 
-- What are the most common attributes of employees who left the company?
-- Which departments and job roles experience the highest attrition?
-- How does job satisfaction or work-life balance influence attrition?
-- What is the impact of overtime, salary hike, or manager satisfaction on attrition?
-- How does attrition vary across different demographics like age, gender, and education?
+Key Features:
+- Monthly Trends: Net sales & total transactions (line chart)
+- Customer Segmentation: RFM, cohort analysis
+- Pareto- Top Products Contributors
+- Product Insights: Sales by category/subcategory, top contributors
+- MoM Growth: Trend indicators for quantity/sales changes
+- Conversion Analysis: Store-type level conversion efficiency
+- Cohort Analysis: Customer retention trends over time
 
-### Table of Contents
+### Machine Learning – Product Demand Forecasting
+Model: Supervised Regression (Random Forest)
+
+Goal: Predict quantity sold based on features like: Product category & subcategory, Store type, Average selling price, Time-based variables (Month, Year)
+
+- Performance:
+   RMSE: 0.014
+   R²: 0.9999
+
+## Key Results
+
+- Highly accurate regression model (R² > 0.9999) for demand prediction
+- Business-ready dashboard highlighting sales drivers and trends
+- Scalable data pipeline for integrating new transactional data
 
 Data
 
