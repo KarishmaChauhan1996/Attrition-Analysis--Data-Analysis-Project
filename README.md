@@ -1,4 +1,6 @@
-# Overview
+# Product Demand Forecasting & Sales Intelligence Dashboard
+
+## Overview
 
 This project is a comprehensive Sales Analytics & Forecasting solution designed to help businesses understand Sales using SQL-based data analysis, and interactive dashboarding and predict product demand using machine learning.
 
@@ -9,7 +11,7 @@ It includes:
 - Product Demand Forecasting model using Python (Regression)
 
 
-# Objective
+## Objective
 
 - Analyze the sales and segement customers/products based on purchasing behavior.
 - Predict future product demand (sales quantity) using historical data.
@@ -40,13 +42,13 @@ It includes:
   - total_amt
   - Store_type
 
-### Tools & Technologies
+## Tools & Technologies
 
 - Python (Pandas, Matplotlib, Seaborn, Scikit-learn,Numpy) for data cleaning, EDA, and modeling.
 - SQL (MS SQL Server / PostgreSQL) for data aggregation, joins, and advanced filtering.
 - Power BI for dynamic dashboards and executive-level visual insights
-- 
-### SQL Data Analysis
+  
+## SQL Data Analysis
 
 Robust SQL queries were used to clean, transform, and aggregate raw transactional and reference data.
 Key SQL Operations:
@@ -59,7 +61,7 @@ Key SQL Operations:
 - Customer and Product Aggregation
 - Cohort Analysis Preparation
 
-### Power BI Dashboard
+## Power BI Dashboard
 An advanced Power BI dashboard was created to visualize key business metrics using dynamic DAX measures and visuals.
 
 Key Features:
@@ -71,7 +73,7 @@ Key Features:
 - Conversion Analysis: Store-type level conversion efficiency
 - Cohort Analysis: Customer retention trends over time
 
-### Machine Learning – Product Demand Forecasting
+## Machine Learning – Product Demand Forecasting
 Model: Supervised Regression (Random Forest)
 
 #### Model Development Workflow:
@@ -97,11 +99,22 @@ Model: Supervised Regression (Random Forest)
 - Highly accurate regression model (R² > 0.9999) for demand prediction
 - Business-ready dashboard highlighting sales drivers and trends
 
+## Key Results
+
+- Highly accurate regression model (R² > 0.9999) for demand prediction.
+- Business-ready dashboard highlighting sales drivers and trends
+
 ## Business Impact:
 
 - Enables accurate forecasting of demand at the product and store level.
 - Assists teams in stock planning, reducing overstock and stockouts.
 - Informs pricing decisions and promotion targeting.
 - Supports month-on-month sales planning and seasonality adjustment
-  
+
+## Future Enhancements
+
+- Add price sensitivity analysis (elasticity modeling)
+- Integrate real-time data sources (APIs)
+- Extend model for multi-step forecasting
+- Incorporate promotions & seasonal flags
     
