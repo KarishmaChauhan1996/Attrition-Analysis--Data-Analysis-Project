@@ -1,6 +1,6 @@
 # Product Demand Forecasting & Sales Intelligence Dashboard
 
-## Overview
+## Project Overview
 
 This project is a comprehensive Sales Analytics & Forecasting solution designed to help businesses understand Sales using SQL-based data analysis, and interactive dashboarding and predict product demand using machine learning.
 
