@@ -89,12 +89,11 @@ Model: Supervised Regression (Random Forest)
 #### Model Bulding
 - Train-Test Split
 - Split the data into 80% training and 20% testing for evaluation.
-- Optionally used TimeSeriesSplit or GroupKFold to respect temporal structure.
 - Modeling Techniques- RandomForest
 #### Model Evaluation
 - Measured using industry-standard metrics:
-   - RMSE (Root Mean Square Error): 0.014
-   - R² Score: 0.9999 (indicating excellent fit)
+   - RMSE (Root Mean Square Error)
+   - R² Score
 #### Key Results
 - Highly accurate regression model (R² > 0.9999) for demand prediction
 - Business-ready dashboard highlighting sales drivers and trends
