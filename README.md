@@ -23,7 +23,7 @@ It includes:
 #### Table: customers
   - customer_ID
   - DOB
-  - Gneder
+  - Gender
   - City_code
 #### Table: product_hierarchy
   - prod_cat_code
@@ -99,10 +99,14 @@ Model: Supervised Regression (Random Forest)
 - Highly accurate regression model (R² > 0.9999) for demand prediction
 - Business-ready dashboard highlighting sales drivers and trends
 
-## Key Results
+## Project Structure
 
-- Highly accurate regression model (R² > 0.9999) for demand prediction.
-- Business-ready dashboard highlighting sales drivers and trends
+- data/ # Raw and processed datasets
+- notebooks/ # Jupyter notebooks for EDA and modeling
+- scripts/ # Python scripts for cleaning and prediction
+- powerbi/ # Power BI dashboard file (.pbix)
+- outputs/ # Plots, reports, and metrics
+- README.md # Project documentation
 
 ## Business Impact:
 
@@ -111,7 +115,7 @@ Model: Supervised Regression (Random Forest)
 - Informs pricing decisions and promotion targeting.
 - Supports month-on-month sales planning and seasonality adjustment
 
-## Future Enhancements
+## Potential Enhancements
 
 - Add price sensitivity analysis (elasticity modeling)
 - Integrate real-time data sources (APIs)
