@@ -16,7 +16,7 @@ It includes:
 - Build a Power BI dashboard for real-time insights on sales performance.
 - Enable data-driven pricing, stocking, and marketing decisions.
 
-## Data
+## Data Overview
 
 #### Table: customers
   - customer_ID
@@ -40,6 +40,12 @@ It includes:
   - total_amt
   - Store_type
 
+### Tools & Technologies
+
+- Python (Pandas, Matplotlib, Seaborn, Scikit-learn,Numpy) for data cleaning, EDA, and modeling.
+- SQL (MS SQL Server / PostgreSQL) for data aggregation, joins, and advanced filtering.
+- Power BI for dynamic dashboards and executive-level visual insights
+- 
 ### SQL Data Analysis
 
 Robust SQL queries were used to clean, transform, and aggregate raw transactional and reference data.
@@ -68,7 +74,7 @@ Key Features:
 ### Machine Learning – Product Demand Forecasting
 Model: Supervised Regression (Random Forest)
 
-### Model Development Workflow:
+#### Model Development Workflow:
  
 #### Exploratory Data Analysis
 #### Data Preparation
@@ -87,110 +93,15 @@ Model: Supervised Regression (Random Forest)
 - Measured using industry-standard metrics:
    - RMSE (Root Mean Square Error): 0.014
    - R² Score: 0.9999 (indicating excellent fit)
+#### Key Results
+- Highly accurate regression model (R² > 0.9999) for demand prediction
+- Business-ready dashboard highlighting sales drivers and trends
 
-#### Business Impact:
+## Business Impact:
+
 - Enables accurate forecasting of demand at the product and store level.
 - Assists teams in stock planning, reducing overstock and stockouts.
 - Informs pricing decisions and promotion targeting.
 - Supports month-on-month sales planning and seasonality adjustment
   
-## Key Results
-
-- Highly accurate regression model (R² > 0.9999) for demand prediction
-- Business-ready dashboard highlighting sales drivers and trends
-
-## Data
-
-
-
-
-### Tools & Technologies
-
-Python (Pandas, Matplotlib, Seaborn, Scikit-learn,Numpy) for data cleaning, EDA, and modeling
-
-SQL (MS SQL Server / PostgreSQL) for data aggregation, joins, and advanced filtering
-
-Power BI for dynamic dashboards and executive-level visual insights
-
-
-### Steps Involved
-
-- Data Preparation
-- Features selection.
-- A target variable attack_class was created in two different ways:
-   - a. Binomial:
-
-     0 → Normal
-
-     1 → Attack
-     
-  - b. Multinomial:
-  
-     Normal
-
-     Back
-
-     Buffer Overflow
-
-     FTP Write
-
-     Guess Password
-
-    Neptune
-
-    Nmap
-
-    Port Sweep
-
-    Rootkit
-
-    Satan
-
-    Smurf
-
-Python Analysis Highlights
-Performed EDA to detect missing values, outliers, and class imbalance
-
-Visualized attrition trends across variables using bar plots, box plots, and heatmaps
-
-Built logistic regression and decision tree models to identify top predictors of attrition
-
-🛢️ SQL Analysis Highlights
-Used complex JOIN, CASE, and GROUP BY queries to:
-
-Calculate attrition rate by department, role, education field, and satisfaction level
-
-Identify performance patterns of employees who left vs stayed
-
-Analyze travel frequency, overtime, and promotions in relation to attrition
-
-📈 Power BI Dashboard
-Interactive visuals to track:
-
-Attrition by department, gender, job role
-
-Comparison of satisfaction levels and attrition
-
-Demographics and compensation breakdown
-
-Filters by department, marital status, and age group
-
-Executive summary cards showing KPIs like:
-
-Total Employees, Attrition Rate, High-Risk Segments
-
-🔍 Key Insights
-Employees with low job satisfaction, frequent overtime, or few years since promotion are more likely to leave.
-
-Sales and Human Resources departments have relatively higher attrition rates.
-
-Younger employees and those with 1–2 years tenure are at higher risk.
-
-Work-life balance and manager relationship scores are strong retention indicators.
-#### Future Work
-- Try advanced ensemble methods like XGBoost or LightGBM.
-
-- Handle class imbalance (if needed) using SMOTE or class_weight.
-
-- Tune hyperparameters using GridSearchCV for further optimization.
     
